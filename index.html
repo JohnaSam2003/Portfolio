@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-image: url('https://wallpaperaccess.com/full/4658782.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .form-container {
+      display: flex;
+      justify-content: center;
+	  padding: 0px 0px 40px 0px;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 350px;
+	  
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>A Tribute Page<br>For<br>Markiplier</h1><br><br><br><br><br>
+
+  <div class="form-container">
+    <form id="frm1" action="homepage.html">
+      First name: <input type="text" name="fname"><br>
+      Last name: <input type="text" name="lname"><br><br>
+      <input type="button" onclick="myFunction()" value="Submit">
+    </form>
+	
+  </div>
+
+  <div class="form-container">
+	<img src="https://media.gettyimages.com/id/1187194382/photo/youtuber-mark-edward-fischbach-aka-markiplier-attends-the-build-series-to-discuss-his-new.jpg?s=612x612&w=gi&k=20&c=MnHZRH5pjZeL5cR7zL0lp7H3866yQ0MMODYCtS5g21I=" alt="Markiplier" width="760" height="550">
+  </div>
+  
+
+  <script>
+    function myFunction() {
+      document.getElementById("frm1").submit();
+    }
+  </script>
+
+</body>
+</html>
